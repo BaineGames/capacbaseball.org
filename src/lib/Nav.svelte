@@ -1,0 +1,18 @@
+<script>
+    const navItems = [
+      { label: "Home", href: "/" },
+      { label: "League Info", href: "/leagueinfo" },
+      { label: "Registration", href: "/registration" },
+      { label: "Allstars", href: "/allstars" },
+      { label: "Sponsors", href: "/sponsors" },
+      { label: "Coaches Corner", href: "/coachescorner" }
+    ];
+</script>
+
+<ul class='md:flex justify-center bg-yellow-400'>
+    {#each navItems as item}
+        <li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none">
+            <a class='flex align-center justify-center h-full' href={item.href}>{item.label}</a>
+        </li>
+    {/each}
+</ul>

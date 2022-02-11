@@ -1,10 +1,25 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
-		adapter: adapter()
-	}
+    kit: {
+        // hydrate the <div id="svelte"> element in src/app.html
+        adapter: adapter({
+            // default options are shown
+            pages: 'docs',
+            assets: 'docs',
+            fallback: null
+        }),
+		// paths: {
+        //     base: '/docs',
+        // },
+        /*
+        If you need to serve your file from a sub directory
+        paths: {
+            base: '/your-sub-dir',
+        },
+        */
+    }
 };
 
 export default config;
