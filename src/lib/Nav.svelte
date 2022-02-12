@@ -5,7 +5,8 @@
       { label: "Registration", href: "/registration" },
       { label: "Allstars", href: "/allstars" },
       { label: "Sponsors", href: "/sponsors" },
-      { label: "Coaches Corner", href: "/coachescorner" }
+      { label: "Coaches Corner", href: "/coachescorner" },
+        { label: "Contact Us", href: "mailto:capacyouthbaseball@gmail.com" }
     ];
 </script>
 
