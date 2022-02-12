@@ -10,9 +10,9 @@ const config = {
             assets: 'docs',
             fallback: null
         }),
-		paths: {
-            base: '/capacbaseball.org',
-        },
+		// paths: {
+        //     base: '/capacbaseball.org',
+        // },
         /*
         If you need to serve your file from a sub directory
         paths: {
