@@ -1,23 +1,26 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-4402ed06.js",
+    "file": "start-254e186a.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
-      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/__error.svelte",
       "src/routes/index.svelte",
+      "src/routes/coachescorner/__layout.svelte",
       "src/routes/coachescorner/index.svelte",
       "src/routes/coachescorner/coachescodeofconduct.svelte",
-      "src/routes/coachescorner/generalinfo.svelte",
       "src/routes/coachescorner/guidelines.svelte",
+      "src/routes/registration/__layout.svelte",
       "src/routes/registration/index.svelte",
       "src/routes/registration/rates.svelte",
+      "src/routes/leagueinfo/__layout.svelte",
       "src/routes/leagueinfo/index.svelte",
       "src/routes/leagueinfo/parentscodeofconduct.svelte",
+      "src/routes/leagueinfo/teamcodeofconduct.svelte",
       "src/routes/leagueinfo/boardmembers.svelte",
       "src/routes/leagueinfo/dates.svelte",
       "src/routes/allstars.svelte",
@@ -25,147 +28,182 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-73e6ecb6.js",
+    "file": "pages/__layout.svelte-97585499.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-5a378477.css"
+      "assets/pages/__layout.svelte-61ef8e0d.css"
     ],
     "assets": [
       "assets/CYBLLogo-065a5183.png"
     ]
   },
-  ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-eda74f18.js",
-    "src": ".svelte-kit/runtime/components/error.svelte",
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-7c410485.js",
+    "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-0959b017.js",
+    "file": "pages/index.svelte-3543345c.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js",
+      "_Divisions-8fd47af1.js"
+    ]
+  },
+  "src/routes/coachescorner/__layout.svelte": {
+    "file": "pages/coachescorner/__layout.svelte-8b9ab4c0.js",
+    "src": "src/routes/coachescorner/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/coachescorner/index.svelte": {
-    "file": "pages/coachescorner/index.svelte-d76f8f92.js",
+    "file": "pages/coachescorner/index.svelte-be76cc64.js",
     "src": "src/routes/coachescorner/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/coachescorner/coachescodeofconduct.svelte": {
-    "file": "pages/coachescorner/coachescodeofconduct.svelte-e0bd3539.js",
+    "file": "pages/coachescorner/coachescodeofconduct.svelte-6936f6aa.js",
     "src": "src/routes/coachescorner/coachescodeofconduct.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
-    ]
-  },
-  "src/routes/coachescorner/generalinfo.svelte": {
-    "file": "pages/coachescorner/generalinfo.svelte-573df1b6.js",
-    "src": "src/routes/coachescorner/generalinfo.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/coachescorner/guidelines.svelte": {
-    "file": "pages/coachescorner/guidelines.svelte-17d92956.js",
+    "file": "pages/coachescorner/guidelines.svelte-d7f88c94.js",
     "src": "src/routes/coachescorner/guidelines.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
+    ]
+  },
+  "src/routes/registration/__layout.svelte": {
+    "file": "pages/registration/__layout.svelte-02f158e0.js",
+    "src": "src/routes/registration/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/registration/index.svelte": {
-    "file": "pages/registration/index.svelte-7fbccb97.js",
+    "file": "pages/registration/index.svelte-5bb63ae1.js",
     "src": "src/routes/registration/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/registration/rates.svelte": {
-    "file": "pages/registration/rates.svelte-013ae558.js",
+    "file": "pages/registration/rates.svelte-4fe6b871.js",
     "src": "src/routes/registration/rates.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
+    ]
+  },
+  "src/routes/leagueinfo/__layout.svelte": {
+    "file": "pages/leagueinfo/__layout.svelte-a65334a3.js",
+    "src": "src/routes/leagueinfo/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/leagueinfo/index.svelte": {
-    "file": "pages/leagueinfo/index.svelte-f2730800.js",
+    "file": "pages/leagueinfo/index.svelte-f788dd46.js",
     "src": "src/routes/leagueinfo/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js",
+      "_Divisions-8fd47af1.js"
     ]
   },
   "src/routes/leagueinfo/parentscodeofconduct.svelte": {
-    "file": "pages/leagueinfo/parentscodeofconduct.svelte-f9fe2889.js",
+    "file": "pages/leagueinfo/parentscodeofconduct.svelte-91781a84.js",
     "src": "src/routes/leagueinfo/parentscodeofconduct.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
+    ]
+  },
+  "src/routes/leagueinfo/teamcodeofconduct.svelte": {
+    "file": "pages/leagueinfo/teamcodeofconduct.svelte-9ad6c176.js",
+    "src": "src/routes/leagueinfo/teamcodeofconduct.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/leagueinfo/boardmembers.svelte": {
-    "file": "pages/leagueinfo/boardmembers.svelte-f8d27b67.js",
+    "file": "pages/leagueinfo/boardmembers.svelte-8a6bfe78.js",
     "src": "src/routes/leagueinfo/boardmembers.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/leagueinfo/dates.svelte": {
-    "file": "pages/leagueinfo/dates.svelte-13a1e1b9.js",
+    "file": "pages/leagueinfo/dates.svelte-01373fb5.js",
     "src": "src/routes/leagueinfo/dates.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/allstars.svelte": {
-    "file": "pages/allstars.svelte-aa13d3bc.js",
+    "file": "pages/allstars.svelte-2bda2988.js",
     "src": "src/routes/allstars.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ]
   },
   "src/routes/sponsors.svelte": {
-    "file": "pages/sponsors.svelte-126ed2ef.js",
+    "file": "pages/sponsors.svelte-2d92d220.js",
     "src": "src/routes/sponsors.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-1ad8fff2.js"
+      "_vendor-57dbb66d.js"
     ]
   },
-  "_vendor-1ad8fff2.js": {
-    "file": "chunks/vendor-1ad8fff2.js"
+  "_vendor-57dbb66d.js": {
+    "file": "chunks/vendor-57dbb66d.js"
+  },
+  "_Divisions-8fd47af1.js": {
+    "file": "chunks/Divisions-8fd47af1.js",
+    "imports": [
+      "_vendor-57dbb66d.js"
+    ]
   }
 }

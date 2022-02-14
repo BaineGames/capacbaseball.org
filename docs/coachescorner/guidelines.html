@@ -7,11 +7,12 @@
 		<!-- <link rel="icon" href="../favicon.png" /> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-5a378477.css">
-	<link rel="modulepreload" href="/_app/start-4402ed06.js">
-	<link rel="modulepreload" href="/_app/chunks/vendor-1ad8fff2.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-73e6ecb6.js">
-	<link rel="modulepreload" href="/_app/pages/coachescorner/guidelines.svelte-17d92956.js">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-61ef8e0d.css">
+	<link rel="modulepreload" href="/_app/start-254e186a.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-57dbb66d.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-97585499.js">
+	<link rel="modulepreload" href="/_app/pages/coachescorner/__layout.svelte-8b9ab4c0.js">
+	<link rel="modulepreload" href="/_app/pages/coachescorner/guidelines.svelte-d7f88c94.js">
 	</head>
 	<body class="container w-full md:max-w-6xl mx-auto">
 		<div>
@@ -20,22 +21,76 @@
 <div class="flex flex-row bg-capac-blue align-middle items-center py-1 md:py-5"><img class="w-1/4 pl-2 hidden md:block" src="/_app/assets/CYBLLogo-065a5183.png" alt="Capac Youth Baseball League Logo">
     <p class="w-full md:w-3/4 text-2xl text-yellow-400 uppercase font-serif text-center md:text-6xl">Capac Youth<br>Baseball &amp; Softball<br>League</p></div>
 
-<ul class="md:flex justify-center bg-yellow-400"><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/">Home</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/leagueinfo">League Info</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/registration">Registration</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/allstars">Allstars</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/sponsors">Sponsors</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/coachescorner">Coaches Corner</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="mailto:capacyouthbaseball@gmail.com">Contact Us</a>
+<ul class="md:flex justify-center bg-yellow-400"><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 md:hidden font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><span class="flex align-center justify-center h-full cursor-pointer">Menu</span></li>
+    <li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/">Home</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/leagueinfo">League Info</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/registration">Registration</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/allstars">Allstars</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/sponsors">Sponsors</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/coachescorner">Coaches Corner</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="mailto:capacyouthbaseball@gmail.com">Contact Us</a>
         </li></ul>
 
-<main class="bg-white text-black"></main>
+<main class="bg-white text-black"><div class="flex flex-col md:flex-row"><div class="md:block md:w-1/4"><div class="bg-slate-100 h-full p-3 text-center md:text-left"><h2 class="font-bold text-xl">Sections</h2>
+	<ul><li class="my-1 hover:bg-slate-200"><a class="flex align-center justify-center md:justify-start h-full" href="/coachescorner/coachescodeofconduct">Coaches Code of Conduct</a></li>
+		<li class="my-1 hover:bg-slate-200"><a class="flex align-center justify-center md:justify-start h-full" href="/coachescorner/guidelines">Guidelines</a></li></ul></div></div>
+    
+    
+    <main class="md:w-3/4"><div class="p-3"><h2 class="text-xl font-bold">Injury/Weather Guidelines</h2>
+	<h3 class="underline text-lg">Guidelines for Handling Injuries</h3>
+	<p class="py-2">The purpose of these guidelines is to provide a default policy to those responsible for making
+		decisions concerning player, coach or umpire injuries during practice or contests. The following
+		will be followed at all CYBL sponsored events, including, but not limited to, games and
+		practices.
+	</p>
+
+	<p class="py-1">1. All head injuries should be taken seriously. Any participant (players, coaches, umpires,
+		etc&quot;) that has been struck in the head needs to notify a CYBL board member and seek appropriate
+		medical attention.
+	</p>
+
+	<p class="py-1">2. Any participant that is bleeding must be removed from the contest and appropriate medical
+		attention should be taken.
+	</p>
+
+	<p class="py-1">3. There will be a First Aide kit in the concession stand and equipment trailer.
+	</p>
+
+	<p class="py-1">4. Coach&quot;s will report all injuries to a CYBL board member that require a participant to be
+		removed from a contest to have professional medical treatment.
+	</p>
+
+	<p class="py-1">5. All injuries need to have the injury report filled out these will be available in the
+		equipment trailer or concession stand. These reports need to be given to a board member ASAP.
+	</p>
+
+	<p class="py-1">Safety is the number one concern of CYBL. Please keep all participants safe.</p>
+
+	<div class="bg-slate-200 w-full h-2 my-3"></div>
+
+	<h3 class="underline text-lg">Guidelines on Handling Contests During Lightning Disturbances</h3>
+	<p class="py-2">The purpose of these guidelines is to provide a default policy to those responsible for making
+		decisions concerning the suspension and restarting of contests based on the presence of
+		lightning. The following will be followed at all CYBL sponsored events, including, but not
+		limited to, games and practices.
+	</p>
+    <p class="font-bold">Proactive Planning</p>
+    <p class="py-1">1. Assign staff to monitor local weather conditions before and during event</p>
+    <p class="ml-5">a. This will be done by the CYBL Board of Directors daily.</p>
+    <p class="py-1">2. Develop an evacuation plan, including identification of appropriate nearby shelters.</p>
+    <p class="ml-5">a. The overhang at the South Entrance to Capac Elementary may be used as a shelter. Please discuss the route to shelters with your players.</p>
+    <p class="py-1">3. Develop criteria for suspension and resumption of play:</p>
+    <p class="ml-5">a. When <span class="underline font-bold">thunder is heard</span>, or a cloud-to-ground lightning bolt is seen, the thunderstorm is close enough to strike your location with lightning. Suspend play and take shelter immediately. Don&quot;t worry about equipment, leave it where it is and moved to shelter quickly.</p>
+    <p class="ml-5">b. Thirty-minute rule. Once play has been suspended, teams must wait at least 30 minutes after the last thunder is heard or flash of lightning is witnessed prior to resuming play. It will be the responsibility of the staff designated by the CYBL Board of Directors to determine with this rule has been satisfied.</p>
+    <p class="ml-5">c. Any subsequent thunder or lightning after the beginning of the 30 Minute count, resets the clock and another 30 minute count should begin. After 60 minutes (1 Hour) the contest will be called and rescheduled for a different day.</p>
+    <p class="py-1">4. Hold periodic reviews for appropriate personnel.</p>
+    <p class="ml-5">a. All coaches will be educated on this guideline and evacuation plan during the yearly coach&quot;s meeting and draft.</p></div></main></div></main>
 
 
-		<script type="module" data-hydrate="1ryspog">
-		import { start } from "/_app/start-4402ed06.js";
+		<script type="module" data-hydrate="dcegvw">
+		import { start } from "/_app/start-254e186a.js";
 		start({
-			target: document.querySelector('[data-hydrate="1ryspog"]').parentNode,
+			target: document.querySelector('[data-hydrate="dcegvw"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -45,8 +100,9 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-73e6ecb6.js"),
-						import("/_app/pages/coachescorner/guidelines.svelte-17d92956.js")
+					import("/_app/pages/__layout.svelte-97585499.js"),
+						import("/_app/pages/coachescorner/__layout.svelte-8b9ab4c0.js"),
+						import("/_app/pages/coachescorner/guidelines.svelte-d7f88c94.js")
 				],
 				url: new URL("http://sveltekit-prerender/coachescorner/guidelines"),
 				params: {}

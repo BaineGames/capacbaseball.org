@@ -7,11 +7,13 @@
 		<!-- <link rel="icon" href="./favicon.png" /> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>CYBL League Info</title>
-	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-5a378477.css">
-	<link rel="modulepreload" href="/_app/start-4402ed06.js">
-	<link rel="modulepreload" href="/_app/chunks/vendor-1ad8fff2.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-73e6ecb6.js">
-	<link rel="modulepreload" href="/_app/pages/leagueinfo/index.svelte-f2730800.js">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-61ef8e0d.css">
+	<link rel="modulepreload" href="/_app/start-254e186a.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-57dbb66d.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-97585499.js">
+	<link rel="modulepreload" href="/_app/pages/leagueinfo/__layout.svelte-a65334a3.js">
+	<link rel="modulepreload" href="/_app/pages/leagueinfo/index.svelte-f788dd46.js">
+	<link rel="modulepreload" href="/_app/chunks/Divisions-8fd47af1.js">
 	</head>
 	<body class="container w-full md:max-w-6xl mx-auto">
 		<div>
@@ -20,25 +22,55 @@
 <div class="flex flex-row bg-capac-blue align-middle items-center py-1 md:py-5"><img class="w-1/4 pl-2 hidden md:block" src="/_app/assets/CYBLLogo-065a5183.png" alt="Capac Youth Baseball League Logo">
     <p class="w-full md:w-3/4 text-2xl text-yellow-400 uppercase font-serif text-center md:text-6xl">Capac Youth<br>Baseball &amp; Softball<br>League</p></div>
 
-<ul class="md:flex justify-center bg-yellow-400"><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/">Home</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/leagueinfo">League Info</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/registration">Registration</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/allstars">Allstars</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/sponsors">Sponsors</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/coachescorner">Coaches Corner</a>
-        </li><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="mailto:capacyouthbaseball@gmail.com">Contact Us</a>
+<ul class="md:flex justify-center bg-yellow-400"><li class="px-4 py-1 hover:bg-yellow-300 md:py-2 md:hidden font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><span class="flex align-center justify-center h-full cursor-pointer">Menu</span></li>
+    <li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/">Home</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/leagueinfo">League Info</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/registration">Registration</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/allstars">Allstars</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/sponsors">Sponsors</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="/coachescorner">Coaches Corner</a>
+        </li><li class="hidden md:block px-4 py-1 hover:bg-yellow-300 md:py-2 font-semibold text-black text-center border-b-2 md:border-b-0 md:border-r-2 border-black md:last:border-none"><a class="flex align-center justify-center h-full" href="mailto:capacyouthbaseball@gmail.com">Contact Us</a>
         </li></ul>
 
-<main class="bg-white text-black">
+<main class="bg-white text-black"><div class="flex flex-col md:flex-row"><div class="md:block md:w-1/4"><div class="bg-slate-100 h-full p-3 text-center md:text-left"><h2 class="font-bold text-xl">Sections</h2>
+	<ul><li class="my-1 hover:bg-slate-200"><a class="flex align-center justify-center md:justify-start h-full" href="/leagueinfo/boardmembers">Board Members</a></li>
+		<li class="my-1 hover:bg-slate-200"><a class="flex align-center justify-center md:justify-start h-full" href="/leagueinfo/dates">Important Dates</a></li>
+		<li class="my-1 hover:bg-slate-200"><a class="flex align-center justify-center md:justify-start h-full" href="/leagueinfo/parentscodeofconduct">Parents Code of Conduct</a></li>
+		<li class="my-1 hover:bg-slate-200"><a class="flex align-center justify-center md:justify-start h-full" href="/leagueinfo/teamcodeofconduct">Team Code of Conduct</a></li></ul></div></div>
+    
+    
+    <main class="md:w-3/4">
 
-<h1>CYBL League Info</h1>
-<p>TODO...</p></main>
+
+<div class="md:w-full p-3"><h1 class="text-2xl font-bold">Welcome to Capac Youth Baseball Leauge</h1>
+	<p class="my-3">The objective of CYBL should be to implant firmly in the children of the community the ideals
+		of good sportsmanship, honesty, loyalty, courage and respect for authority, so that they may
+		be well-adjusted, stronger and happier children and will grow to be good, decent, healthy and
+		trustworthy citizens.
+	</p>
+	<p class="my-3">CYBL organization is classified as a 501 (c) (3) not for profit organization</p>
+	<p class="my-3">CYBL Annually hosts an ALL-STAR Tournament at our sporting complex consisting of 9 baseball /
+		softball diamonds
+	</p>
+
+	<p class="mt-5 mb-5 text-center underline font-bold">CYBL Participant Divisions</p>
+<div class="flex flex-col md:flex-row justify-evenly"><div class="text-center mb-3 md:mb-0"><p class="underline font-bold">T-Ball</p>
+		<ul><li>Coed - 5 &amp; Under</li></ul></div>
+	<div class="text-center mb-3 md:mb-0"><p class="underline font-bold">Baseball (age as of May 1st)</p>
+		<ul><li>8 &amp; Under - Machine Pitch</li>
+			<li>10 &amp; Under</li>
+			<li>12 &amp; Under</li>
+			<li>14 &amp; Under</li></ul></div>
+	<div class="text-center mb-3 md:mb-0"><p class="underline font-bold">Softball (age as of May 1st)</p>
+		<ul><li>10 &amp; Under</li>
+			<li>12 &amp; Under</li>
+			<li>15 &amp; Under</li></ul></div></div></div></main></div></main>
 
 
-		<script type="module" data-hydrate="1gxx5ox">
-		import { start } from "/_app/start-4402ed06.js";
+		<script type="module" data-hydrate="vk9gmd">
+		import { start } from "/_app/start-254e186a.js";
 		start({
-			target: document.querySelector('[data-hydrate="1gxx5ox"]').parentNode,
+			target: document.querySelector('[data-hydrate="vk9gmd"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -48,8 +80,9 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-73e6ecb6.js"),
-						import("/_app/pages/leagueinfo/index.svelte-f2730800.js")
+					import("/_app/pages/__layout.svelte-97585499.js"),
+						import("/_app/pages/leagueinfo/__layout.svelte-a65334a3.js"),
+						import("/_app/pages/leagueinfo/index.svelte-f788dd46.js")
 				],
 				url: new URL("http://sveltekit-prerender/leagueinfo"),
 				params: {}
