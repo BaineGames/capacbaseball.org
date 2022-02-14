@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-90968810.js",
+    "file": "start-59b86099.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -162,7 +162,7 @@
     ]
   },
   "src/routes/leagueinfo/boardmembers.svelte": {
-    "file": "pages/leagueinfo/boardmembers.svelte-e1f0665b.js",
+    "file": "pages/leagueinfo/boardmembers.svelte-d7a6bb5a.js",
     "src": "src/routes/leagueinfo/boardmembers.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -171,7 +171,7 @@
     ]
   },
   "src/routes/leagueinfo/dates.svelte": {
-    "file": "pages/leagueinfo/dates.svelte-01373fb5.js",
+    "file": "pages/leagueinfo/dates.svelte-a6a5dc5d.js",
     "src": "src/routes/leagueinfo/dates.svelte",
     "isEntry": true,
     "isDynamicEntry": true,

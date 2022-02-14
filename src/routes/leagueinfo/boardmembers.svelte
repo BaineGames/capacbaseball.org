@@ -1,29 +1,29 @@
 <script>
 	const members = [
-		{ position: 'President', name: 'Jennifer Kluger', phone: '(989)-621-6716', email: '' },
-		{ position: 'Vice President', name: 'Terry Geliske', phone: '(301) 351-1446', email: '' },
+		{ position: 'President', name: 'Jennifer Kluger', phone: '(989)621-6716', email: '' },
+		{ position: 'Vice President', name: 'Terry Geliske', phone: '(301)351-1446', email: '' },
 		{
 			position: 'Secretary',
 			name: 'Tina Howard',
-			phone: '(810) 459-3753',
+			phone: '(810)459-3753',
 			email: 'tmhoward6@yahoo.com'
 		},
 		{
 			position: 'Treasurer',
 			name: 'Mary Rilley',
-			phone: '(810) 650-9744',
+			phone: '(810)650-9744',
 			email: 'maryrilley1@aol.com'
 		},
 		{
 			position: 'Fundraising',
 			name: 'Mary Rilley',
-			phone: '(810) 650-9744',
+			phone: '(810)650-9744',
 			email: 'maryrilley1@aol.com'
 		},
 		{
 			position: 'Equipment',
 			name: 'Barry Geliske',
-			phone: '(586) 215-9596',
+			phone: '(586)215-9596',
 			email: 'thomemi@frontier.com'
 		}
 	];
