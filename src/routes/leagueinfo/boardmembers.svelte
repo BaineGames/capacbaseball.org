@@ -1,6 +1,6 @@
 <script>
 	const members = [
-		{ position: 'President', name: 'Jennifer Kluger', phone: '(989) 621-6716', email: '' },
+		{ position: 'President', name: 'Jennifer Kluger', phone: '(989)-621-6716', email: '' },
 		{ position: 'Vice President', name: 'Terry Geliske', phone: '(301) 351-1446', email: '' },
 		{
 			position: 'Secretary',

@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-84e88861.js",
+    "file": "start-90968810.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -162,7 +162,7 @@
     ]
   },
   "src/routes/leagueinfo/boardmembers.svelte": {
-    "file": "pages/leagueinfo/boardmembers.svelte-8a6bfe78.js",
+    "file": "pages/leagueinfo/boardmembers.svelte-e1f0665b.js",
     "src": "src/routes/leagueinfo/boardmembers.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
