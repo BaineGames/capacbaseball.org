@@ -3,6 +3,10 @@
 	import News from '$lib/News.svelte';
 </script>
 
+<svelte:head>
+	<title>Capac Youth Baseball & Softball League Website</title>
+</svelte:head>
+
 <div class="flex flex-col md:flex-row">
 	<div class="md:w-3/4 p-3">
 		<h1 class="text-2xl font-bold">Welcome to Capac Youth Baseball Leauge</h1>

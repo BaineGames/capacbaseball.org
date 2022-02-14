@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>CYBL Coaches Guidelines</title>
+</svelte:head>
+
 <div class="p-3">
 	<h2 class="text-xl font-bold">Injury/Weather Guidelines</h2>
 	<h3 class="underline text-lg">Guidelines for Handling Injuries</h3>

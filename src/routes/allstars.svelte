@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>CYBL Allstars Information</title>
+</svelte:head>
+
 <div class='p-3 text-center'>
 	<h2 class="font-bold text-xl">
 		2022 Capac Youth Baseball League All-Star Baseball / Softball Tournament

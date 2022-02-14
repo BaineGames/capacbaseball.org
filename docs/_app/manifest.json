@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-254e186a.js",
+    "file": "start-84e88861.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -52,7 +52,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-3543345c.js",
+    "file": "pages/index.svelte-cf98238f.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -71,7 +71,7 @@
     ]
   },
   "src/routes/coachescorner/index.svelte": {
-    "file": "pages/coachescorner/index.svelte-be76cc64.js",
+    "file": "pages/coachescorner/index.svelte-fd5b1235.js",
     "src": "src/routes/coachescorner/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -80,7 +80,7 @@
     ]
   },
   "src/routes/coachescorner/coachescodeofconduct.svelte": {
-    "file": "pages/coachescorner/coachescodeofconduct.svelte-6936f6aa.js",
+    "file": "pages/coachescorner/coachescodeofconduct.svelte-54ef65b9.js",
     "src": "src/routes/coachescorner/coachescodeofconduct.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -89,7 +89,7 @@
     ]
   },
   "src/routes/coachescorner/guidelines.svelte": {
-    "file": "pages/coachescorner/guidelines.svelte-d7f88c94.js",
+    "file": "pages/coachescorner/guidelines.svelte-25f08e8f.js",
     "src": "src/routes/coachescorner/guidelines.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -180,7 +180,7 @@
     ]
   },
   "src/routes/allstars.svelte": {
-    "file": "pages/allstars.svelte-2bda2988.js",
+    "file": "pages/allstars.svelte-7e781142.js",
     "src": "src/routes/allstars.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -189,7 +189,7 @@
     ]
   },
   "src/routes/sponsors.svelte": {
-    "file": "pages/sponsors.svelte-2d92d220.js",
+    "file": "pages/sponsors.svelte-9eda30b7.js",
     "src": "src/routes/sponsors.svelte",
     "isEntry": true,
     "isDynamicEntry": true,

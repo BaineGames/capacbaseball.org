@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>CYBL Coaches Code of Conduct</title>
+</svelte:head>
+
 <div class="p-3">
 	<h2 class="text-xl font-bold">Coaches Code of Conduct</h2>
 	<p class="py-2">
