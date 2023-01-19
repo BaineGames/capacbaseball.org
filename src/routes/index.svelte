@@ -1,5 +1,5 @@
 <script>
-	import Divisions from '$lib/Divisions.svelte';
+	// import Divisions from '$lib/Divisions.svelte';
 	import News from '$lib/News.svelte';
 </script>
 
@@ -22,7 +22,7 @@
 			softball diamonds
 		</p>
 
-		<Divisions />
+		<!-- <Divisions /> -->
 	</div>
 
 	<div class="md:block md:w-1/4">

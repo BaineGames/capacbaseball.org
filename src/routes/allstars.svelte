@@ -4,9 +4,8 @@
 
 <div class='p-3 text-center'>
 	<h2 class="font-bold text-xl">
-		2022 Capac Youth Baseball League All-Star Baseball / Softball Tournament
+		Capac Youth Baseball League All-Star Baseball / Softball Tournament
 	</h2>
-	<p class='py-2'>July 15th - 17th</p>
 	<p class='w-full bg-yellow-300 p-3'>MHSAA Registered Umpires on every Field</p>
 	<p class='py-2'>Trophies will be awarded for 1st &amp; 2nd Place Teams. (Only 12 TROPHIES per Team)</p>
 	<p class='py-2'>Concession Stand will be available</p>
