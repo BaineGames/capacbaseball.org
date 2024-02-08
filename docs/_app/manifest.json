@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-ddb84a14.js",
+    "file": "start-29e40e8c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -28,7 +28,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-03166147.js",
+    "file": "pages/__layout.svelte-a6ed69ce.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -36,14 +36,14 @@
       "_index-369f9cf7.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-f0821c7e.css"
+      "assets/pages/__layout.svelte-f55b7a78.css"
     ],
     "assets": [
       "assets/CYBLLogo-065a5183.png"
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "pages/__error.svelte-4446291d.js",
+    "file": "pages/__error.svelte-fe3d1bfd.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -52,7 +52,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-12d4a878.js",
+    "file": "pages/index.svelte-7b466488.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -61,7 +61,7 @@
     ]
   },
   "src/routes/coachescorner/__layout.svelte": {
-    "file": "pages/coachescorner/__layout.svelte-d535b38a.js",
+    "file": "pages/coachescorner/__layout.svelte-c358e8d3.js",
     "src": "src/routes/coachescorner/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -70,7 +70,7 @@
     ]
   },
   "src/routes/coachescorner/index.svelte": {
-    "file": "pages/coachescorner/index.svelte-614bb3d6.js",
+    "file": "pages/coachescorner/index.svelte-b356b425.js",
     "src": "src/routes/coachescorner/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -79,7 +79,7 @@
     ]
   },
   "src/routes/coachescorner/coachescodeofconduct.svelte": {
-    "file": "pages/coachescorner/coachescodeofconduct.svelte-96d6b3e9.js",
+    "file": "pages/coachescorner/coachescodeofconduct.svelte-9768a8b0.js",
     "src": "src/routes/coachescorner/coachescodeofconduct.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -88,7 +88,7 @@
     ]
   },
   "src/routes/coachescorner/guidelines.svelte": {
-    "file": "pages/coachescorner/guidelines.svelte-0a47a3fc.js",
+    "file": "pages/coachescorner/guidelines.svelte-7adfa743.js",
     "src": "src/routes/coachescorner/guidelines.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -97,7 +97,7 @@
     ]
   },
   "src/routes/registration/__layout.svelte": {
-    "file": "pages/registration/__layout.svelte-611fea00.js",
+    "file": "pages/registration/__layout.svelte-b00f2125.js",
     "src": "src/routes/registration/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -106,7 +106,7 @@
     ]
   },
   "src/routes/registration/index.svelte": {
-    "file": "pages/registration/index.svelte-62e3223a.js",
+    "file": "pages/registration/index.svelte-0591d3fa.js",
     "src": "src/routes/registration/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -115,7 +115,7 @@
     ]
   },
   "src/routes/registration/rates.svelte": {
-    "file": "pages/registration/rates.svelte-708bbf4a.js",
+    "file": "pages/registration/rates.svelte-c424e4e1.js",
     "src": "src/routes/registration/rates.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -124,7 +124,7 @@
     ]
   },
   "src/routes/leagueinfo/__layout.svelte": {
-    "file": "pages/leagueinfo/__layout.svelte-f4ff16dd.js",
+    "file": "pages/leagueinfo/__layout.svelte-c0279b21.js",
     "src": "src/routes/leagueinfo/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -133,7 +133,7 @@
     ]
   },
   "src/routes/leagueinfo/index.svelte": {
-    "file": "pages/leagueinfo/index.svelte-0198e84f.js",
+    "file": "pages/leagueinfo/index.svelte-c55c632f.js",
     "src": "src/routes/leagueinfo/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -142,7 +142,7 @@
     ]
   },
   "src/routes/leagueinfo/parentscodeofconduct.svelte": {
-    "file": "pages/leagueinfo/parentscodeofconduct.svelte-36afe2c7.js",
+    "file": "pages/leagueinfo/parentscodeofconduct.svelte-e8278e33.js",
     "src": "src/routes/leagueinfo/parentscodeofconduct.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -151,7 +151,7 @@
     ]
   },
   "src/routes/leagueinfo/teamcodeofconduct.svelte": {
-    "file": "pages/leagueinfo/teamcodeofconduct.svelte-07fa33ab.js",
+    "file": "pages/leagueinfo/teamcodeofconduct.svelte-26eca6cb.js",
     "src": "src/routes/leagueinfo/teamcodeofconduct.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -160,7 +160,7 @@
     ]
   },
   "src/routes/leagueinfo/boardmembers.svelte": {
-    "file": "pages/leagueinfo/boardmembers.svelte-8304f244.js",
+    "file": "pages/leagueinfo/boardmembers.svelte-7dec40b3.js",
     "src": "src/routes/leagueinfo/boardmembers.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -169,7 +169,7 @@
     ]
   },
   "src/routes/leagueinfo/dates.svelte": {
-    "file": "pages/leagueinfo/dates.svelte-afa74d32.js",
+    "file": "pages/leagueinfo/dates.svelte-9ce0fb12.js",
     "src": "src/routes/leagueinfo/dates.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -178,7 +178,7 @@
     ]
   },
   "src/routes/allstars.svelte": {
-    "file": "pages/allstars.svelte-5e43945a.js",
+    "file": "pages/allstars.svelte-a0d8eae3.js",
     "src": "src/routes/allstars.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -187,7 +187,7 @@
     ]
   },
   "src/routes/sponsors.svelte": {
-    "file": "pages/sponsors.svelte-335457a9.js",
+    "file": "pages/sponsors.svelte-18e90732.js",
     "src": "src/routes/sponsors.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
